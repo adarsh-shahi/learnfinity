@@ -2,7 +2,6 @@ import { FormEvent } from "react";
 
 export default function Login() {
 
-
 	const handleGoogleSignIn = () => {
 		const ROOT_URL = "https://accounts.google.com/o/oauth2/v2/auth";
 		const options = {
